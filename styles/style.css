@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    margin: 0;
+    background-image: url("../src/img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: rgb(0, 0, 0);
+}
+#nav-bar{
+    margin: auto;
+    margin-top: 50px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+#input_search{
+    width: 40%;
+    font-size: 20px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border: 2px solid yellow;
+    padding: 7px;
+}
+#search_button{
+    font-size: 20px;
+    background-color: yellow;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border: 2px solid yellow;
+    padding: 7px;
+}
+#input_search:focus{
+    outline: none;
+    border: 2px solid white;
+}
+#search_button:hover{
+    cursor: pointer;
+}
+#options{
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    width: 45%;
+    gap: 20px;
+    justify-content: space-between;
+ }
+ #options>div{
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    font-weight: bolder;
+    border-radius: 10px;
+    width: 20%;
+    height: 30px;
+ }
+ #options>div:hover{
+     cursor: pointer;
+      transform: scale(1.2);
+ }
+ #nature{
+     background-image: url("../src/img/nature.jpg");
+     background-size: cover;
+ }
+ #beach{
+    background-image: url("../src/img/beach.jpg");
+     background-size: cover;
+ }
+ #bikes{
+    background-image: url("../src/img/bike.jpg");
+     background-size: cover;
+ }
+ #cars{
+    background-image: url("../src/img/car.jpg");
+     background-size:contain;
+ }
+ #cartoon{
+    background-image: url("../src/img/cartoon.jpg");
+     background-size:contain;
+
+ }
+ #results{
+     margin-top: 50px;
+     display: none;
+     border-radius: 15px;
+     width: 90%;
+     margin: auto;
+     background-color: rgb(255, 255, 255);
+     color: rgb(0, 0, 0);
+     text-align: center;
+     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+     padding: 15px;
+ }
+ #images{
+     width: 100%;
+     display: grid;
+     gap: 20px;
+     grid-template-columns: repeat(4,1fr);
+ }
+ #image>div{
+   
+ }
+ #images>div:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    transform: scale(1.1);
+ }
